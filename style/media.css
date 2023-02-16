@@ -1,0 +1,197 @@
+
+@media(max-width:1400px){
+  
+}
+@media(max-width:1200px){
+
+}
+@media(max-width:1140px){
+
+}
+@media(max-width:1123px){
+  .airpod__pro_img_block::before, 
+    .airpod__pro_img_block::after{
+      content: none;
+    }
+}
+@media(max-width:1088px){
+  .white_airpods_contnet,
+  .airpods__pro_contnet{
+    width: 100%;
+  }
+  .airpod__pro_img_block::before, 
+    .airpod__pro_img_block::after,
+  .airpods__pro_text,
+  .airpod__pro_img_block,
+  .airpods__pro_text_right,
+  .black_airpod,
+  .black_airpods__text,
+  .white_airpod,
+  .white_airpods__text
+  {
+    width:calc(50% - 20px)
+    
+  }
+  .airpods__pro_contnet,
+  .models__block{
+    gap: 20px;
+  }
+  .black_airpods__text{
+    margin-top: 0;}
+}
+@media(max-width:850px){
+  .review__product{
+    padding: 15px 0;
+  }
+  .black_airpods_contnet{
+    gap: 15px;
+  }
+  .white_airpods_contnet,
+  .black_airpods_contnet,
+  .airpods__pro_contnet{
+    flex-direction: column;
+    width: 100%;
+  }
+  
+    
+    
+  .airpods__pro_text,
+  .airpod__pro_img_block,
+  .airpods__pro_text_right,
+  .black_airpod,
+  .black_airpods__text,
+  .white_airpod,
+  .white_airpods__text{
+    width:calc(80% - 20px)}
+  
+    .airpod__pro_img_block::before, 
+    .airpod__pro_img_block::after{
+      content: none;
+    }
+}
+@media(max-width:620px){
+  .black_airpods__text,
+  .white_airpods__text{
+    font-size: 15px;
+  }
+  .airpod__pro_img_block{
+    position: relative;
+    max-width: 150px;
+    width: 100%;
+  
+   
+}
+
+  .airpods__pro_text,
+  .airpods__pro_text_right{
+   font-size: 15px;
+   text-align: center;
+   }
+   
+}
+@media(max-width:320px){
+  .black_airpods__text,
+  .white_airpods__text,
+  .airpods__pro_text,
+  .airpods__pro_text_right{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+  }
+}
+
+@media(max-width:992px){
+
+}
+@media(max-width:768px){
+  .models__block{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+  }
+  .phone__model_box{
+    width: calc(80% - 20px);
+  }
+}
+@media(max-width:576px){
+ .footer__block{
+ 
+
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ } 
+ 
+ .link__box{
+  margin-left: 50px;
+ }
+}
+@media(max-width:695px){
+ /* ====header=== */
+ .entrance__title{
+  font-size: 80px;
+ /* ====header=== */
+ 
+  }
+  
+ 
+}
+@media(max-width:559px){
+  /* ===header=== */
+  .entrance__title{
+    font-size: 50px;
+  } 
+  /* ===header=== */
+  .models__block{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+  }
+  .phone__model_box{
+    max-width: unset;
+    width: calc(80% - 30px);
+  }
+}
+@media(max-width:508px){
+  /* ====header=== */
+  .nav_link {
+    flex-direction: column;
+    gap: 5px;
+   
+
+}
+.header__nav{
+ 
+  padding: 10px 5px;
+}
+  /* ====header=== */
+
+}
+@media(max-width:383px){
+  /* ====header=== */
+  .nav_link{
+    gap: 15px;
+  }
+  .link__left {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav_logo{
+   margin-left: 20px;
+  }
+  .link__right{
+    margin-right: 20px;
+  }
+  /* ====header=== */
+
+}
+
+
